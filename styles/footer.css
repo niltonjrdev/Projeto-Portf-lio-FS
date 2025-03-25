@@ -1,4 +1,64 @@
 footer {
     grid-area: footer;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.p-footer-a {
+    font: var(--subtitle);
+    color: var(--principal-color-purple);
+    text-align: center;
+    margin-top: 128px;
+}
+
+.h2-footer {
+    font: var(--title-md);
+    color: var(--base-color-gray600);
+    text-align: center;
+    margin-top: 8px;
+}
+
+.p-footer-b {
+    font: var(--subtitle);
+    color: var(--base-color-gray500);
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.card-footer {
+    background-color: var(--base-color-gray300);
+    width: 400px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.card-footer a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+}
+
+.card-footer p {
+    display: flex;
+    font: var(--text-md);
+    color: var(--base-color-gray500);
+    margin-left: 8px;
+}
+
+.arrow {
+    margin-left: auto;
 }

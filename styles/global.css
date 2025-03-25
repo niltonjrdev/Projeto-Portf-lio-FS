@@ -5,7 +5,7 @@
 }
 
 :root {
-    --background-color: #29292e;
+    --background-color: #16181d;
     --principal-color-red: #E3646E;
     --principal-color-purple: #BB72E9;
     --principal-color-blue: #3996DB;
@@ -36,7 +36,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
-    height: 100vh;
     background-color: var(--background-color);
 
 
