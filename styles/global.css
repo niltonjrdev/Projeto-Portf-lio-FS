@@ -5,7 +5,7 @@
 }
 
 :root {
-
+    --background-color: #29292e;
     --principal-color-red: #E3646E;
     --principal-color-purple: #BB72E9;
     --principal-color-blue: #3996DB;
@@ -31,7 +31,27 @@
     --text-sm: 400 14px/140% var(--font-text);
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+
+
+    grid-template-areas:
+        "header"
+        "main"
+        "aside"
+        "footer";
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+ul {
+    list-style: none;
 }
