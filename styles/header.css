@@ -4,12 +4,12 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-top: 94px;
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1399px;
-    height: 750px;
 }
 
 .profile-container {

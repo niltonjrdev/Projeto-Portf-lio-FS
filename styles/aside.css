@@ -1,4 +1,54 @@
 aside {
     grid-area: aside;
-    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--base-color-gray100);
+}
+
+.p-aside {
+    font: var(--subtitle);
+    color: var(--principal-color-red);
+    text-align: center;
+    margin-top: 88px;
+
+}
+
+.h2-aside {
+    font: var(--title-md);
+    color: var(--base-color-gray600);
+    margin-bottom: 56px;
+}
+
+.container-aside {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+}
+
+.card-aside {
+    border: 2px solid var(--base-color-gray200);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 155px;
+
+}
+
+.card-aside img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.card-aside h3 {
+    font: var(--title-sm);
+    color: var(--base-color-gray600);
+    margin-bottom: 8px;
+}
+
+.card-aside p {
+    font: var(--text-sm);
+    color: var(--base-color-gray400);
 }
