@@ -10,18 +10,12 @@ header {
     background-repeat: no-repeat;
     width: 1399px;
     height: 750px;
-    border: 1px solid red;
-}
-
-.container {
-    border: 1px solid red;
 }
 
 .profile-container {
     align-items: center;
     position: relative;
     display: inline-block;
-    border: 1px solid red;
 }
 
 .profilepic {
@@ -34,7 +28,6 @@ header {
     border: 3px solid var(--principal-color-red);
     overflow: hidden;
     margin-bottom: 56px;
-    border: 1px solid red;
 
 }
 
@@ -42,7 +35,6 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 1px solid red;
 }
 
 .icondev {
@@ -51,7 +43,6 @@ header {
     right: 1px;
     width: 30px;
     height: auto;
-    border: 1px solid red;
 }
 
 .primary {
@@ -59,14 +50,12 @@ header {
     color: var(--base-color-gray500);
     text-align: center;
     margin-bottom: 6px;
-    border: 1px solid red;
 }
 
 .secondary {
     font: var(--text-sm);
     color: var(--base-color-gray400);
     margin-bottom: 80px;
-    border: 1px solid red;
 }
 
 span {
@@ -78,7 +67,6 @@ h1 {
     color: var(--base-color-gray600);
     text-align: center;
     margin-bottom: 20px;
-    border: 1px solid red;
 }
 
 .grid {
@@ -87,7 +75,6 @@ h1 {
     gap: 16px;
     width: 754px;
     height: 40px;
-    border: 1px solid red;
 }
 
 .grid figure {
@@ -111,5 +98,4 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 96px;
-    border: 1px solid red;
 }

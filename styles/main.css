@@ -1,4 +1,60 @@
 main {
     grid-area: main;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: auto;
+    background-color: #16181d;
+    width: 1399px;
+}
+
+.p-main {
+    font: var(--subtitle);
+    color: var(--principal-color-red);
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 8px;
+}
+
+.h2-main {
+    font: var(--title-md);
+    color: var(--base-color-gray600);
+    margin-bottom: 56px;
+}
+
+.fig-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 144px;
+}
+
+.main-card {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--base-color-gray300);
+    width: 100%;
+    max-width: 330px;
+    min-height: 280px;
+}
+
+.main-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.main-card h3 {
+    font: var(--title-sm);
+    color: var(--base-color-gray600);
+    margin-bottom: 8px;
+}
+
+.main-card figcaption {
+    font: var(--text-sm);
+    color: var(--base-color-gray400);
 }
