@@ -13,6 +13,17 @@ header {
     border: 1px solid red;
 }
 
+.container {
+    border: 1px solid red;
+}
+
+.profile-container {
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    border: 1px solid red;
+}
+
 .profilepic {
     display: flex;
     justify-content: center;
@@ -22,7 +33,9 @@ header {
     border-radius: 50%;
     border: 3px solid var(--principal-color-red);
     overflow: hidden;
+    margin-bottom: 56px;
     border: 1px solid red;
+
 }
 
 .profilepic img {
@@ -32,11 +45,27 @@ header {
     border: 1px solid red;
 }
 
-p {
+.icondev {
+    position: absolute;
+    bottom: 45px;
+    right: 1px;
+    width: 30px;
+    height: auto;
+    border: 1px solid red;
+}
+
+.primary {
     font-family: var(--font-sub);
     color: var(--base-color-gray500);
     text-align: center;
     margin-bottom: 6px;
+    border: 1px solid red;
+}
+
+.secondary {
+    font: var(--text-sm);
+    color: var(--base-color-gray400);
+    margin-bottom: 80px;
     border: 1px solid red;
 }
 
@@ -56,6 +85,8 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 16px;
+    width: 754px;
+    height: 40px;
     border: 1px solid red;
 }
 
@@ -63,6 +94,22 @@ h1 {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    font: var(--text-md);
+    color: var(--base-color-gray500);
+}
+
+.card {
+    align-items: center;
+    background-color: var(--base-color-gray300);
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 999px;
+}
+
+.arrowdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
     border: 1px solid red;
 }
